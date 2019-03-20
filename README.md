@@ -11,7 +11,8 @@ Classroom assignment <about:blank>
 - [Objetos](http://youtu.be/c9NaVWIRT0A?t=93)
 - Construtores
 - Validade
-- Atributos (estado)
+- Atributos
+- Estado
 - Comportamento
 - Mutabilidade
 - Métodos comando e consulta
