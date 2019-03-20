@@ -1,6 +1,6 @@
 # ava-01-oo-abstracao-construcao-estado-comportamento
 
-Classroom assignment <about:blank>
+Classroom assignment <https://classroom.github.com/a/Ogoqb292>
 
 ## Modelar e implementar respeitando os princípios básicos de Orientação a Objetos
 
