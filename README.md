@@ -166,7 +166,9 @@ f.largura = 660;
 f.profundidade = 540;
 // ---
 // ---
-Forno forno = new Forno(84, 220, 1860, 58, 61, 58);
+// PATCH
+// Forno forno = new Forno(84, 220, 1860, 58, 61, 58);
+Forno forno = new Forno(84, 220, 1860, 61, 58, 58);
 System.out.println(forno.volume = 84);
 System.out.println(forno.tensao = 220);
 System.out.println(forno.potencia = 1860);
@@ -239,7 +241,9 @@ System.out.println(forno.temperatura() == 0);
 forno.setTimer(120);
 forno.aumentarTemperatura(); forno.aumentarTemperatura();
 System.out.println(forno.ligado() == true);
-System.out.println(forno.temperatura() == 150);
+// PATCH
+// System.out.println(forno.temperatura() == 150);
+System.out.println(forno.temperatura() == 100);
 System.out.println(forno.tempoRestante() == 120);
 while (forno.ligado()) forno.tick();
 System.out.println(forno.tempoRestante() == 0);
