@@ -205,16 +205,18 @@ forno.aumentarTemperatura(); // está no máximo
 System.out.println(forno.temperatura() == 300); // 300
 System.out.println(forno.ligado() == true);
 // reduzindo
-forno.duminuirTemperatura();
-forno.duminuirTemperatura();
-forno.duminuirTemperatura();
-System.out.println(forno.temperatura() == 200); // 200
+forno.diminuirTemperatura();
+forno.diminuirTemperatura();
+forno.diminuirTemperatura();
+// PATCH
+// System.out.println(forno.temperatura() == 200); // 200
+System.out.println(forno.temperatura() == 150); // 150
 // desligando direto
 forno.desligar();
 System.out.println(forno.ligado() == false);
 System.out.println(forno.temperatura() == 0);
 // já está desligado
-forno.duminuirTemperatura();
+forno.diminuirTemperatura();
 System.out.println(forno.ligado() == false);
 System.out.println(forno.temperatura() == 0);
 
